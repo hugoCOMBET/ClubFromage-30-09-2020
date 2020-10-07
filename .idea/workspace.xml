@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="" />
+    <list default="true" id="5901d604-f3e5-428c-b9a2-25e0043d5137" name="Default Changelist" comment="version 07/10">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,12 +66,35 @@
       <updated>1600846824411</updated>
       <workItem from="1600846825448" duration="6370000" />
       <workItem from="1601446358198" duration="10461000" />
-      <workItem from="1602060336691" duration="770000" />
+      <workItem from="1602060336691" duration="2242000" />
     </task>
+    <task id="LOCAL-00001" summary="version 07/10">
+      <created>1602061270301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602061270301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 07/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 07/10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="163" key="#PHP" timestamp="1601447537917">
@@ -113,9 +147,9 @@
     </state>
     <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600852414244" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601448468987" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602061147408">
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602061289231">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602061147408" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602061289231" />
   </component>
 </project>

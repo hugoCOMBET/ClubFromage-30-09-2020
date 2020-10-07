@@ -1,6 +1,6 @@
 <?php
 
-require 'Model/Autoloader.php';
+require 'Autoloader.php';
 Autoloader::register();
 
 //require("model/business/Fromage.php");
