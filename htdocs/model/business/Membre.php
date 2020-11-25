@@ -104,7 +104,17 @@ class Membre implements \JsonSerializable
     public function jsonSerialize()
     {
         // TODO: Implement jsonSerialize() method.
-        return $this->array;
+        $array = [
+            'identifiant'=> $this->_identifiant,
+            'Nom'=>$this->_Nom,
+            'pseudo'=>$this->_pseudo,
+            'Email'=>$this->_Email,
+            'DateDerniereConnexion'=>$this->_DateDerniereConnexion,
+            'DateEntreDansClub'=>$this->_DateEntreDansClub,
+            'DescriptionRole'=>$this->_DescriptionRole,
+            'present'=>$this->_present
+        ];
+        return json_encode($array, JSON_PRETTY_PRINT);
     }
 
 }
