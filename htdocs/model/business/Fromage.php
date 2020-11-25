@@ -2,7 +2,7 @@
 
 namespace model\business;
 
-class Fromage
+class Fromage extends Aliment implements IBusinessClass
 {
     public $_identifiant;
     public $_Nom;
@@ -13,11 +13,11 @@ class Fromage
     public $_histoire;
     public $_pays;
 
-    public function __construct($t)
+    public function __construct(array $data)
     {
-        $this->hydrate($t);
+        $this->hydrate($data);
     }
-    private function hydrate(array $donnees)
+    public function hydrate(array $donnees)
     {
         foreach ($donnees as $key => $value)
         {
@@ -29,24 +29,6 @@ class Fromage
         }
     }
 
-    public function getIdentifiant()
-    {
-        return $this->_identifiant;
-    }
-    public function setIdentifiant($identifiant)
-    {
-        $this->_identifiant = $identifiant;
-    }
-
-    public function getNom()
-    {
-        return $this->_Nom;
-    }
-    public function setNom($Nom)
-    {
-        $this->_Nom = $Nom;
-    }
-
     public function getAffinage()
     {
         return $this->_Affinage;
@@ -54,24 +36,6 @@ class Fromage
     public function setAffinage($Affinage)
     {
         $this->_Affinage = $Affinage;
-    }
-
-    public function getDateCreation()
-    {
-        return $this->_DateCreation;
-    }
-    public function setDateCreation($DateCreation)
-    {
-        $this->_DateCreation = $DateCreation;
-    }
-
-    public function getImage()
-    {
-        return $this->_image;
-    }
-    public function setImage($image)
-    {
-        $this->_image = $image;
     }
 
     public function getRecette()
@@ -91,14 +55,4 @@ class Fromage
     {
         $this->_histoire = $histoire;
     }
-
-    public function getPays()
-    {
-        return $this->_pays;
-    }
-    public function setPays($pays)
-    {
-        $this->_pays = $pays;
-    }
-
 }

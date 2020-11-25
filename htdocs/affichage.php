@@ -1,5 +1,6 @@
 <?php
 
+use model\business;
 require 'Autoloader.php';
 Autoloader::register();
 
@@ -19,3 +20,5 @@ echo $camembert -> _identifiant;
 
 echo $roquefort -> _Nom;
 echo $roquefort -> _identifiant;
+
+

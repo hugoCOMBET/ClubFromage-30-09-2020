@@ -2,7 +2,7 @@
 
 namespace model\business;
 
-class Membre
+class Membre implements \JsonSerializable
 {
     public $_identifiant;
     public $_Nom;
@@ -99,6 +99,12 @@ class Membre
     public function setPresent($present)
     {
         $this->_present = $present;
+    }
+
+    public function jsonSerialize()
+    {
+        // TODO: Implement jsonSerialize() method.
+        return $this->array;
     }
 
 }
