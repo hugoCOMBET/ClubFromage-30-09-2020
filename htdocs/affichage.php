@@ -25,10 +25,10 @@ $tableau = [
     'identifiant'=> 1,
     'Nom'=>"hugo",
     'pseudo'=>"hugz",
-    'Email'=>'hhihi@hikf',
+    'Email'=>'hugo@gmail.com',
     'DateDerniereConnexion'=>'2000-02-02',
-    'DateEntreDansClub'=>'2000-02-02',
-    'DescriptionRole'=>"uhihiuhihi",
+    'DateEntreDansClub'=>'1962-02-02',
+    'DescriptionRole'=>"King",
     'present'=>0
             ];
 $membre = new business\Membre($tableau) ;
